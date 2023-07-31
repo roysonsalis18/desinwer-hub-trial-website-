@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design hub-contact</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="c">
+  <section>
+    <input type="checkbox" id="check">
+  <header class="c"> 
+    <header>
+    <h2><a href="#" class="logo">LOGO</a></h2>
+    <nav>
+      <div class="cnavigation">
+      <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login/Sign up</a>
+        
+      </div></div>
+    </nav>
+
+  <label for="check">
+      <i class="fas fa-bars menu-btn"></i>
+      <i class="fas fa-times close-btn"></i>
+    </label>  </header></header>
+   <section class="content">
+  <style>
+
+
+body .c {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header .c {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cinfo {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 70%;
+  min-width: 300px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.3);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.cnavigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cnavigation a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+  margin-right: 10px;
+}
+
+.cnavigation a:last-child {
+  margin-right: 0;
+}
+
+.cnavigation a:hover {
+  background: #fff;
+}
+
+.content {
+  width: 100%;
+  min-width: 200px;
+  margin: 60px auto;
+}
+
+.cinfo h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+
+.cinfo h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+  align-items: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #226a80;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #024f60;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 960px) {
+  body .c {
+    font-size: 14px;
+  }
+
+  header .c {
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .cnavigation {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cnavigation a {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+  }
+
+  .content {
+    margin: 40px auto;
+    padding: 10px;
+  }
+
+  .cinfo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .cinfo p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    gap: 10px;
+  }
+
+  .form-group label {
+    font-size: 12px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  button[type="submit"] {
+    padding: 8px 16px;
+  }
+}
+
+</style>
+    <div class="cinfo">
+      <h2>Contact Us</h2>
+      <h3><br><span>We'd love to hear from you! Fill out the form below to get in touch.</span></h3>
+      
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form></section>
+    </div>
+ <style>
+    
+    </style>
+     <div class="media-icons">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+</section>
+
+</body>
+</html>
